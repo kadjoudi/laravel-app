@@ -1,0 +1,28 @@
+{
+    "name": "admin/laravel-app",
+    "autoload": {
+        "psr-4": {
+            "Admin\\LaravelApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kamel"
+        }
+    ],
+    "require": {
+        "open-telemetry/opentelemetry": "^1.0",
+        "open-telemetry/opentelemetry-auto-psr3": "^0.1.1",
+        "open-telemetry/opentelemetry-auto-pdo": "^0.1.1",
+        "guzzlehttp/promises": "^2.2",
+        "php-http/httplug": "^2.4"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "tbachert/spi": true
+        }
+    }
+}
