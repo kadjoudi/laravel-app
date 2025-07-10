@@ -33,7 +33,7 @@ ENV AUTORUN_ENABLED="true" \
     OTEL_PHP_AUTOLOAD_ENABLED=true \
     OTEL_SERVICE_NAME=my-laravel-app \
     OTEL_EXPORTER_OTLP_ENDPOINT=https://otlp-gateway-prod-eu-west-2.grafana.net/otlp \
-    OTEL_EXPORTER_OTLP_HEADERS="Authorization=Basic MTA2NTY0NjpnbGNfZXlKdklqb2lOekkyTURJd0lpd2liaUk2SW5OMFlXTnJMVEV3TmpVMk5EWXRiM1JzY0MxM2NtbDBaUzF3YUhBaUxDSnJJam9pTWpCcGFXOHhUVGd3V1ZKQ1p6ZGhOMFZzZVRRNU1WUnpJaXdpYlNJNmV5SnlJam9pY0hKdlpDMWxkUzEzWlhOMExUSWlmWDA9" \
+    OTEL_EXPORTER_OTLP_HEADERS="Authorization= <key> \
     OTEL_EXPORTER_OTLP_PROTOCOL=http/protobuf \
     OTEL_TRACES_EXPORTER=otlp \
     OTEL_LOG_LEVEL=debug
